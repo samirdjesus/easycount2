@@ -25,7 +25,7 @@ app.use(cors())
 
 
 
-app.use('/inventario', require('./routes/nota'));
+
 app.use('/inventario', require('./routes/clientes'));
 app.use('/inventario', require('./routes/productos'));
 app.use('/inventario', require('./routes/proveedor'));
