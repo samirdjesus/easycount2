@@ -1,13 +1,16 @@
 {
-  "name": "prueba6",
+  "name": "easycount",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "babel-node app.js --exec",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "devbabel": "nodemon app.js --exec babel-node",
-    "start": "babel-node app.js --exec"
+    "devbabel": "nodemon app.js --exec babel-node"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +24,10 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.8",
-    "@babel/node": "^7.15.8",
-    "@babel/preset-env": "^7.15.8"
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-cli": "^6.26.0"
   }
 }
